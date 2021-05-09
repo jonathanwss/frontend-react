@@ -11,4 +11,5 @@ export const HeaderComponent = styled(Grid)`
 export const Logo = styled.img`
     max-height: 50px;
     width: auto;
+    margin-top: 10px;
 `

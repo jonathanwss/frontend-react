@@ -1,8 +1,7 @@
 import React from "react"
 import { HeaderComponent, Logo } from "./styles"
+import logoMoovin from "../../Images/logo.svg"
 const Header = () => {
-    const logoMoovin =
-		'https://e-millennium.com.br/wp-content/uploads/2015/01/PLATAFORMAS_OK-07-300x152.png'
     return (
         <HeaderComponent sm={12}>
             <Logo src={logoMoovin}>
