@@ -1,15 +1,9 @@
 import React from 'react'
 import './App.scss'
-import {Datatable,Header} from "./Components"
-import { Posts } from "./Pages"
-
+import Routes from "./routes"
 const App: React.FC = () => {
 	return (
-		<>
-			<Header></Header>
-			<Posts />
-			
-		</>
+		<Routes></Routes>
 	)
 }
 
