@@ -1,3 +1,3 @@
 import Posts from "./Posts"
-
-export { Posts }
+import Users from "./Users"
+export { Posts, Users }
