@@ -6,8 +6,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import { Header } from "./Components"
-import { Posts, Users } from "./Pages"
-import Products from "./Pages/Products";
+import { Posts, Users, Products } from "./Pages"
 
 const Routes = () => {
     return (
