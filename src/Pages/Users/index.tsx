@@ -9,7 +9,7 @@ const Users = () => {
     const [page, setPage] = useState(0);
     const [totalPages, setTotalPages] = useState(0);
     
-    const getPosts = async () => {
+    const getUsers = async () => {
         const response = await api.get("users?page="+page);
         setUsers(response.data.data)
         setTotalPages(response.data.meta.pagination.pages)
@@ -28,7 +28,7 @@ const Users = () => {
     }, [])
 
     useEffect(() => {
-        getPosts()
+        getUsers()
     }, [page])
 
     return (
