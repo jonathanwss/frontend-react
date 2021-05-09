@@ -65,7 +65,7 @@ const Datatable = ({ data, columns, title, actionPrev, actionNext, actionSelectP
             }
             <DatatableRow>
                 <DatatableItem style={{ color: "#494949", fontSize: 13 }} sm={10}>
-                    Exibindo {data.length} postagens
+                    Exibindo {data.length} registros
                 </DatatableItem>
                 <DatatableItem style={{ color: "#494949", textAlign: "right" }} sm={2}>
                     <Page style={{ color: actualPage === 1 ? "#A3A3A3": "#2B2B2B" }} onClick={() => {
